@@ -5,7 +5,7 @@ print(a + b, a - b, a * b)  # normal operations
 
 print(a / b, a // b, a / -b, a // -b)   # division and floored division
   
-print(a ** b)   # exponentiation
+print(a ** b)   # exponentiation   # a ** .5  square root
 
 print(a % b)   # modulus (remainder)
 
@@ -14,6 +14,7 @@ x += 10  # Same as x = x + 10
 print(f"{x = }")
 print()
 
+# P E MD AS
 alpha = 1
 beta = 2
 gamma = 3

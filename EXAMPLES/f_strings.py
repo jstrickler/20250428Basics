@@ -15,4 +15,5 @@ print()
 
 # any expression is OK
 print(f"2 + 2 is {2 + 2}")
+print(f"Length of city is {len(city)}")
 

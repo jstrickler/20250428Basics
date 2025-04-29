@@ -1,3 +1,4 @@
+cities = []  # empty list
 cities = ['Portland', 'Pittsburgh', 'Peoria']
 print(f"cities: {cities}\n")
 
@@ -10,7 +11,7 @@ cities.insert(5, "Buffalo")
 print(f"cities: {cities}\n")
 
 more_cities = ["Detroit", "Des Moines"]
-cities.extend(more_cities)
+cities.extend(more_cities)  # append elements of more_cities one at a time
 print(f"cities: {cities}\n")
 
 # LIST.append(obj) LIST.insert(idx, obj) LIST.extend(iterable)

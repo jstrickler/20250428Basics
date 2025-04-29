@@ -4,7 +4,10 @@ print("file_path =", file_path)
 print("len(file_path) =", len(file_path))
 
 print("file_path.upper() =", file_path.upper())
-print("file_path.count('/') =", file_path.count('/'))
+fpu = file_path.upper()
+print(f"{fpu = }")
+
+print("file_path.count('/p') =", file_path.count('/p'))
 print("file_path.count('p') =", file_path.count('p'))
 print("file_path.lower().count('p') =", file_path.lower().count('p'))
 print("file_path.startswith('Projects') =", file_path.startswith('Projects'))
