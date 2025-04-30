@@ -15,12 +15,24 @@ people = [
     ('Larry', 'Page', 'Google'),
     ('Linux', 'Torvalds', 'Linux'),
 ]
+print(f"{type(people) = }")
+print(f"{type(people[0]) = }")
+print(f"{people[0] = }")
+print(f"{people[0][0] = }")
+
 
 for row in people:
     first_name, last_name, _ = row  # unpack row into variables
     print(first_name, last_name)
 print()
 
+# for VAR(s) in ITERABLE:
+#   ...
 for first_name, last_name, _ in people:  # a for loop unpacks if there is more than one variable
-    print(first_name, last_name)
+    print(first_name, last_name.upper())
+print()
+
+for person in people:
+    if 'Larry' in person:
+        print(person)
 print()

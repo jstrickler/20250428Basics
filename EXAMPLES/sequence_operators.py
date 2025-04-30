@@ -16,3 +16,13 @@ list_a = [1, 2, 3]
 list_b = [4, 5, 6]
 list_c = list_a + list_b
 print(f"{list_c = }")
+
+print('-' * 60)
+print(f"{'Python rocks! ' * 5 = }")
+
+flags = [False] * 10
+print(f"{flags = }")
+
+letters = ['a', 'b', 'c']
+print(f"{letters * 5 = }")
+

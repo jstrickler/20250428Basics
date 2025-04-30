@@ -1,4 +1,5 @@
 FILE_PATH = '../DATA/mary.txt'
+# '/Users/jstrick/Desktop/pybasics/DATA/mary.txt'
 
 mary_in = open(FILE_PATH)  # open file for reading
 # read file...
@@ -9,6 +10,8 @@ with open(FILE_PATH) as mary_in:  # open file for reading
     for raw_line in mary_in:
         # rstrip() removes whitespace (including \n or \r ) 
         # from end of string
+        print(f"{raw_line = }")
+        
         line = raw_line.rstrip()
         print(line)
-
+    # mary_in.close()  is implied here...

@@ -10,8 +10,12 @@ with open("../DATA/knights.txt") as knights_in:
 pprint(knight_info, sort_dicts=True)
 print()
 
+#    KEY, VALUE in DICT.items()
 for name, info in knight_info.items():
+    print(f"{name = }")
+    print(f"{info = }")
     print(info[0], name)
+    print('-' * 5)    
 
 print()
 print(knight_info['Robin'], "\n")

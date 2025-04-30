@@ -15,4 +15,8 @@ def double(x):
 
 d = double(10)
 print(f"{d = }")
+print(f"{double('mint') = }")
+print(f"{double(512.3903) = }")
 
+m = "microphone"
+print(f"{double(m) = }")
