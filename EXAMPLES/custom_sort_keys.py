@@ -12,7 +12,7 @@ print(f"fs1: {fs1}\n")
 
 
 def by_length_then_name(item):
-    return (len(item), item.lower())  # Key functions can return tuple of values to compare, in order
+    return len(item), item.lower()  # Key functions can return tuple of values to compare, in order
 
 fs2 = sorted(fruit, key=by_length_then_name)
 print("By length, then name:")
@@ -27,3 +27,6 @@ print(f"n1: {n1}\n")
 n2 = sorted(nums, key=str)  # Sort numbers as strings
 print("Numbers sorted as strings:")
 print(f"n2: {n2}\n")
+
+x = sorted(fruit, key=lambda f: f[-3:])
+print(f"{x = }\n")

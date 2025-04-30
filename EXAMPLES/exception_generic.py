@@ -7,3 +7,5 @@ try:
 
 except Exception as err: # Will catch _any_ exception
     print("Naughty programmer! ", err)
+
+print("END OF SCRIPT")

@@ -1,4 +1,5 @@
 colors = dict(red=5, scarlet=18, blue=1, pink=0, grey=27, yellow=5, green=18)
+print(f"{colors = }\n")
 
 # sort by key
 for color, num in sorted(colors.items()):  # No sort key function needed to sort by key
